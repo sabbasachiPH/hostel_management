@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.formContainer {
+  height: 90vh;
+  display: grid;
+  align-content: center;
+}
+.formCenter {
+  padding: 2rem;
+  box-shadow: 5px 5px 20px rgba(179, 176, 176, 0.822);
+}
+
+/* Dashbord Styles */
+.dashboard {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.6fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "h h"
+    "s m"
+    "s f";
+}
+.dasHeader {
+  grid-area: h;
+  position: sticky;
+  top: 0;
+}
+
+.dasSidebar {
+  grid-area: s;
+}
+
+.dasMain {
+  grid-area: m;
+}
+
+.dasfooter {
+  grid-area: f;
+}

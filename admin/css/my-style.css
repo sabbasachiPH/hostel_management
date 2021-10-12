@@ -1,0 +1,40 @@
+.div1 {
+  width: 80%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3d5170;
+  display: inline-block;
+}
+
+.div2 {
+  width: 17%;
+  display: inline-block;
+}
+
+.button1 {
+  background-color: skyblue;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+.button2 {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
